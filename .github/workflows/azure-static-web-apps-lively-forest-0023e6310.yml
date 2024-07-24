@@ -25,9 +25,8 @@ jobs:
           node-version: '16'
       - name: Install Dependencies
         run: npm install
-      - name: Lint and Build
+      - name: Build
         run: |
-          npm run lint || true # Run lint without failing the build
           CI=false npm run build # Build the project without treating warnings as errors
       - name: Build And Deploy
         id: builddeploy
