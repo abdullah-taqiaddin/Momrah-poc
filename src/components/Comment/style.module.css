@@ -1,0 +1,51 @@
+.avatarContainer {
+    /* Add your styles here */
+}
+
+.commentHeader {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.commentBody {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentDetails {
+    display: flex;
+    flex-direction: column;
+}
+
+.commentText {
+    padding-top: 6px;
+    color: #595959;
+    font-family: "IBM Plex Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.commentDate {
+    color: #969696;
+    font-family: "IBM Plex Sans";
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    /* 240% */
+    /* 240% */
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    gap: 0.2rem;
+    color: var(--Text-text-default, #161616);
+    font-family: "IBM Plex Sans";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    /* 184.615% */
+}

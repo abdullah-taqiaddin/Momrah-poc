@@ -1,0 +1,244 @@
+/* Existing styles */
+.app {
+  text-align: center;
+  background-color: #F4F7F7;
+}
+
+.heroSection {
+  position: relative;
+  background-image: url('../../assets/servicePageBG.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 5rem;
+}
+
+.heroSection::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(355deg, rgba(255, 255, 255, 0.00) -128.35%, rgba(181, 181, 181, 0.26) -66.52%, rgba(0, 0, 0, 0.90) 84.87%);
+}
+
+.heroText {
+  text-align: left;
+  width: 70%;
+  padding-top: 9rem;
+  color: white;
+  font-size: 3rem;
+  font-weight: 700;
+  padding-bottom: 3rem;
+  z-index: 1;
+  align-self: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* New styles */
+.buttonGroup {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.serviceDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 602px;
+  border-radius: 16px;
+  padding: 29px;
+  box-shadow: 0px 4px 8px -2px rgba(16, 24, 40, 0.1), 0px 2px 4px -2px rgba(16, 24, 40, 0.06);
+}
+
+.serviceDetailsTitle {
+  color: #1F2A37;
+  font-family: "IBM Plex Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.serviceDetailsSubTitle {
+  color: var(--Text-text-display, #1F2A37);
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 29px;
+}
+
+.serviceDetailsContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-bottom: 20.5px;
+}
+
+.serviceDetailItem {
+  display: flex;
+  flex-direction: row;
+  gap: 9px;
+  width: 224px;
+  align-items: center;
+}
+
+.serviceDetailItem img {
+  max-width: 22px;
+}
+
+.serviceDetailText {
+  color: var(--Text-text-display, #1F2A37);
+  font-family: "IBM Plex Sans";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  /* 141.667% */
+}
+
+.buttonGroupEnd {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 1rem;
+  padding-bottom: 0.2rem;
+}
+
+.mainContent {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 3rem;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.accordionContainer {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 4rem;
+  padding-top: 4rem;
+}
+
+.inactive {
+  color: #9DA4AE;
+  font-weight: normal;
+}
+
+.active {
+  color: #161616;
+  font-weight: 600;
+}
+
+.iconContainer {
+  background: #F3FCF6;
+  padding: 0.7rem;
+  border-radius: 100%;
+}
+
+.commentsContainer {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  color: #1F2A37;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+  margin: auto;
+}
+
+.commentsHeader {
+  padding-bottom: 2rem;
+}
+
+.commentsAvatar {
+  padding-bottom: 2rem;
+}
+
+.commentsList {
+  display: flex;
+  flex-direction: column;
+  gap: 33px;
+}
+
+.commentInputContainer {
+  padding-bottom: 5rem;
+}
+
+.commentInputBox {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 216px;
+  background: #F7F7F7;
+  border-top: 1px solid #CCC;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.commentTextarea {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  border: none !important;
+  outline: none;
+  resize: none;
+  padding: 1rem;
+}
+
+.commentTextarea:focus-visible {
+  box-shadow: none !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.commentButton {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  /* z-index: 10; */
+  align-self: end;
+}
+
+
+@media (max-width: 870px) {
+  .heroText {
+    font-size: 25px;
+  }
+
+  .accordionContainer {
+    width: 90%;
+  }
+
+  .commentsContainer {
+    width: 90%;
+  }
+}
+
+.accordionPanel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}

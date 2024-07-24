@@ -1,0 +1,68 @@
+.Card {
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center;
+    background: white;
+    box-shadow: 0px 4px 15px 1px rgba(0, 0, 0, 0.04);
+    padding: 1rem;
+    border-radius: 16px;
+    width: 285px;
+    height: 361px;
+}
+
+.CardBackground {
+    background: linear-gradient(142deg, rgba(0, 0, 0, 0.60) 29.54%, rgba(153, 153, 153, 0.00) 133.98%);
+}
+
+.CardTitleImageContainer {
+
+    display: flex;
+    justify-content: left;
+    padding-bottom: 1rem;
+}
+
+.CardTitleImageContainerNoBg {
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 1rem;
+}
+
+.CardTitleImage {
+    max-width: 120px;
+    max-height: 60px;
+}
+
+.CardTitle {
+    text-align: left;
+    color: #14573A;
+    font-family: "IBM Plex Sans";
+    font-size: 22px;
+    font-weight: 500;
+    /* min-height: 50px; */
+    padding-bottom: 1.2rem;
+    padding-top: 1.2rem;
+}
+
+.CardDescription {
+    text-align: left;
+    color: #1E1E1E;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 13px;
+}
+
+.CardButton {
+    margin-top: auto;
+    width: 100%;
+    align-self: center;
+}
+
+@media (max-width: 620px) {
+    .Card {
+        width: 384px;
+        height: 293px;
+    }
+}
