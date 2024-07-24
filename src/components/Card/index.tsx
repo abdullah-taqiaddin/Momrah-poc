@@ -1,7 +1,6 @@
 import { Button } from "@chakra-ui/react";
 import styles from "./style.module.css";
-import logo from "../../assets/";
-import image1 from "../../assets/MinistryProgramImages/1.png";
+
 
 interface ICardProps {
   titleImage?: string;

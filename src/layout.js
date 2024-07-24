@@ -2,7 +2,6 @@
 
 import React from "react";
 import { Box } from "@chakra-ui/react";
-import Header from "../src/components/Header/index.tsx";
 
 import Footer from "../src/components/Footer/index.tsx";
 

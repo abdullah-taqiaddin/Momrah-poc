@@ -19,7 +19,6 @@ import ejar from "./assets/MinistryProgramImages/ejar.svg";
 import ejarbg from "./assets/MinistryProgramImages/ejarbg.png";
 import mobileAppsImage from "./assets/MinistryProgramImages/IphoneApps 1.png";
 import visionbg from "./assets/MinistryProgramImages/2030vision.png";
-import MOMRAHCard from "./assets/MinistryProgramImages/MOMRAHCard.png";
 import ServicePage from "./pages/ServicePage/servicePage.tsx";
 import { Button } from "@chakra-ui/react";
 
