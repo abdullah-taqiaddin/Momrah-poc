@@ -37,7 +37,11 @@ const Card = ({
             : styles.CardTitleImageContainerNoBg
         }
       >
-        <img src={titleImage} className={styles.CardTitleImage} />
+        <img
+          src={titleImage}
+          className={styles.CardTitleImage}
+          alt="titleImage"
+        />
       </div>
       <div className={styles.CardTitle}>{title}</div>
       <div className={styles.CardDescription}>{desciption}</div>

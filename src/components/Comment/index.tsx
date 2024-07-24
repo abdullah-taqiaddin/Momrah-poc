@@ -31,14 +31,14 @@ const Comment = ({
       <div className={styles.commentBody}>
         <div className={styles.commentHeader}>
           <div className={styles.avatarContainer}>
-            <img src={avatar} />
+            <img src={avatar} alt="avatar" />
           </div>
           <div className={styles.commentDetails}>
             <div className={styles.name}>
               {name}{" "}
               {isReply && (
                 <>
-                  <img src={verifiedIcon}></img>{" "}
+                  <img src={verifiedIcon} alt="verifiedIcon"></img>{" "}
                   <div style={{ fontWeight: "400" }}>Verified user</div>
                 </>
               )}

@@ -1,7 +1,5 @@
 import React from "react";
 
-//import Button from "../../Button/index.tsx";
-import IconButton from "../../IconButton/index.tsx";
 import styles from "./style.module.css";
 import { Button } from "@chakra-ui/react";
 
@@ -21,7 +19,7 @@ const EserviceItem = ({
   return (
     <div className={styles.row}>
       <div className={styles.iconContainer}>
-        <img src={icon} />
+        <img src={icon} alt="icon" />
       </div>
       <div className={styles.column}>
         <div style={{ display: "flex", flexDirection: "column" }}>

@@ -168,7 +168,7 @@ Building sustainability evaluation."
               View Apps
             </Button>
           </div>
-          <img src={mobileAppsImage} className="footer-image" />
+          <img src={mobileAppsImage} className="footer-image" alt="test" />
         </div>
       </div>
       <div className="ministry-updates">
