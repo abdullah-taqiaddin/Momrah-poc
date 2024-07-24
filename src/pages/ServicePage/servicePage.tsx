@@ -23,7 +23,7 @@ import avatar2 from "../../assets/avatars/Avatar2.svg";
 import avatar3 from "../../assets/avatars/Avatar3.svg";
 import avatar from "../../assets/avatars/Avatar.svg";
 import IconButton from "../../components/IconButton";
-
+// eslint-disable-line jsx-a11y/anchor-is-valid
 const AccordionItemBody = ({ text }: any) => {
   return (
     <div
@@ -90,6 +90,7 @@ const ServicePage = () => {
                 >
                   Service Fees
                 </a>
+                {/* // eslint-disable-line jsx-a11y/anchor-is-valid */}
               </div>
             </div>
             <div className={styles.serviceDetailItem}>
@@ -237,7 +238,7 @@ const ServicePage = () => {
                         }}
                       >
                         https://balady.gov.sa/Services/DownloadAttachment/22
-                      </a>
+                      </a> // eslint-disable-line jsx-a11y/anchor-is-valid
                     }
                   />
 
@@ -300,7 +301,7 @@ const ServicePage = () => {
                         }}
                       >
                         https://momrah.gov.sa/ar/node/3442
-                      </a>
+                      </a> // eslint-disable-line jsx-a11y/anchor-is-valid
                     }
                   />
 
