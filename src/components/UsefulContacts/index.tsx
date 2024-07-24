@@ -1,7 +1,6 @@
 import React from "react";
 import styles from "./style.module.css";
 import IconButton from "../IconButton/index.tsx";
-import { Button } from "@chakra-ui/react";
 
 const UsefulContacts = () => {
   return (

@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "../../assets/Saudi Arabia Ministry of Municipal and Rural Affairs & Housing.png";
 import "./style.css";
 import { ReactComponent as Logo } from "../../assets/icons/checked-icn.svg";
 
